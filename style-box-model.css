@@ -1,5 +1,16 @@
 .card-1 h1 {
   /* Style for card 1 (your box model example */
-  color: red;
-  margin-left: 1.5in;
+  color: blue;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+.card-1 img {
+  margin-bottom: 10px;
+}
+.card-1 {
+  border-style: groove;
+  border-width: 5px;
+  border-color:aqua;
+  
 }
