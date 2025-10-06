@@ -1,13 +1,40 @@
 /* Style for card-2 (your flexbox example) */
 .card-2 { flex-wrap: wrap;
   background-color: brown;
-}
-.card-2 .card-front h1 {
-  color: aquamarine;
-  margin-bottom: 60px;
-}
-.card-2 .card-front p {
   font-family: "Oswald", sans-serif;
-  color: yellow;
-  margin-bottom: 50px;
+}
+.card-2 .card-front {		 
+ display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+}
+.card-2 .card-front .title {
+  background-color: #00cc00;
+  padding-left: 121px;
+  padding-right: 120px;
+  color: white;
+  font-size: 150%
+}
+
+.card-2 .card-front .family-name{
+  color: white;
+  margin-left: 10px;
+}
+.card-2 .card-front img {
+  margin-left: 110px;
+  margin-top: 10px;
+  border: 5px solid yellow;
+  border-radius: 20%; 
+}
+.card-2 .card-back .contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  padding-right: 62px;
+  padding-left: 62px;
+  color: white;
+  font-size: 120%;
 }
