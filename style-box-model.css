@@ -1,6 +1,6 @@
-.card-1 h1 {
+.card-front h1 {
   /* Style for card 1 (your box model example */
-  color: blue;
+  color: rgb(251, 255, 0);
   font-family: "Oswald", sans-serif;
   text-align: center;
   margin-top: 10px;
@@ -8,9 +8,38 @@
 .card-1 img {
   margin-bottom: 10px;
 }
+.card-1 .card-front p {
+  margin-bottom: 100px;
+}
 .card-1 {
+  background-color: blueviolet;
+}
+.card-1 .card-front {
   border-style: groove;
   border-width: 5px;
-  border-color:aqua;
-  
+  border-color:aqua; 
 }
+.card-front p {
+  font-family: "Oswald", sans-serif;
+  color:yellow;
+}
+.card-1 .card-back .left-back h3 {
+  margin-bottom: 20px;
+  border: 5px solid;
+  color:rgb(0, 119, 255);
+  margin-right: 200px;
+}
+.card-back {
+  background-color: brown;
+  border-style: solid;
+  border-color: yellow;
+}
+.card-back .left-back li {
+  margin-right: 150px;
+  color:antiquewhite;
+  border: 1px solid;
+  font-family: "Oswald", sans-serif;
+}
+
+
+
