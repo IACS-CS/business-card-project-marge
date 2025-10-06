@@ -1,5 +1,13 @@
 /* Style for card-2 (your flexbox example) */
 .card-2 { flex-wrap: wrap;
+  background-color: brown;
 }
-.card-2 .card-front h1{
+.card-2 .card-front h1 {
+  color: aquamarine;
+  margin-bottom: 60px;
+}
+.card-2 .card-front p {
+  font-family: "Oswald", sans-serif;
+  color: yellow;
+  margin-bottom: 50px;
 }

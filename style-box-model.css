@@ -19,7 +19,7 @@
   border-width: 5px;
   border-color:aqua; 
 }
-.card-front p {
+.card-1 .card-front p {
   font-family: "Oswald", sans-serif;
   color:yellow;
 }
@@ -29,12 +29,12 @@
   color:rgb(0, 119, 255);
   margin-right: 200px;
 }
-.card-back {
+.card-1 .card-back {
   background-color: brown;
   border-style: solid;
   border-color: yellow;
 }
-.card-back .left-back li {
+.card-1 .card-back .left-back li {
   margin-right: 150px;
   color:antiquewhite;
   border: 1px solid;
