@@ -1,6 +1,6 @@
 /* Style for card-2 (your flexbox example) */
 .card-2 { flex-wrap: wrap;
-  background-color: brown;
+  background-color: rgb(109, 190, 127);
   font-family: "Oswald", sans-serif;
 }
 .card-2 .card-front {		 
@@ -18,7 +18,7 @@
 }
 
 .card-2 .card-front .family-name{
-  color: white;
+  color: rgb(251, 255, 0);
 }
 .card-2 .card-front img {
   margin-left: 120px;
