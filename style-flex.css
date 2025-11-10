@@ -19,11 +19,10 @@
 
 .card-2 .card-front .family-name{
   color: white;
-  margin-left: 10px;
 }
 .card-2 .card-front img {
-  margin-left: 110px;
-  margin-top: 10px;
+  margin-left: 120px;
+  margin-top: 20px;
   border: 5px solid yellow;
   border-radius: 20%; 
 }
@@ -37,4 +36,12 @@
   padding-left: 62px;
   color: white;
   font-size: 120%;
+}
+.card-2 .card-back h3 {
+  text-align: center;
+  color: yellow;
+}
+.card-2 {
+  border-style: solid;
+  border-color: yellow;
 }
