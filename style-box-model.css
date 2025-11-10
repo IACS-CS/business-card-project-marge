@@ -1,6 +1,5 @@
 .card-1 card-front h1 {
   /* Style for card 1 (your box model example */
-  color: rgb(251, 255, 0);
   font-family: "Oswald", sans-serif;
   text-align: center;
   margin-top: 10px;
@@ -13,14 +12,14 @@
 }
 .card-1 .card-front h1{
   margin-left: 85px;
-  color: rgb(0, 157, 255)
+  color: rgb(155, 85, 0)
 }
 .card-1 p {
   margin-top: 155px;
   margin-left: 119px;
 }
 .card-1 {
-  background-color: rgb(183, 20, 20);
+  background-color: rgb(109, 190, 127);
 }
 .card-1 .card-front {
   border-style: groove;
